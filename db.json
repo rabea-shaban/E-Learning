@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Student One",
+      "email": "student@example.com"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "React Fundamentals",
+      "description": "Learn React from the ground up with components, hooks, and state management.",
+      "category": "Frontend",
+      "level": "Beginner",
+      "duration": 6,
+      "lessonsCount": 4,
+      "objectives": [
+        "Understand JSX and component structure",
+        "Manage state with hooks",
+        "Build reusable UI elements"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "UI/UX Design Essentials",
+      "description": "Master interface design with layout, typography, and prototyping techniques.",
+      "category": "Design",
+      "level": "Intermediate",
+      "duration": 5,
+      "lessonsCount": 3,
+      "objectives": [
+        "Create wireframes and prototypes",
+        "Apply design systems",
+        "Improve usability and accessibility"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Full-Stack Project Workflow",
+      "description": "Plan, build, and ship a modern web application from idea to deployment.",
+      "category": "Product",
+      "level": "Advanced",
+      "duration": 8,
+      "lessonsCount": 4,
+      "objectives": [
+        "Define product requirements",
+        "Collaborate with stakeholders",
+        "Launch and iterate with analytics"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": 101,
+      "courseId": 1,
+      "title": "React in a Nutshell",
+      "summary": "Intro to components, props, and the React mindset.",
+      "duration": 12,
+      "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0"
+    },
+    {
+      "id": 102,
+      "courseId": 1,
+      "title": "Hooks and State",
+      "summary": "Manage state effectively with useState and useEffect.",
+      "duration": 15,
+      "videoUrl": "https://www.youtube.com/watch?v=O6P86uwfdR0"
+    },
+    {
+      "id": 103,
+      "courseId": 1,
+      "title": "Routing and Data",
+      "summary": "Add navigation and API calls to your React apps.",
+      "duration": 14,
+      "videoUrl": "https://www.youtube.com/watch?v=Law7wfdg_ls"
+    },
+    {
+      "id": 104,
+      "courseId": 1,
+      "title": "Project Wrap-up",
+      "summary": "Combine what you've learned into a mini project.",
+      "duration": 10,
+      "videoUrl": "https://www.youtube.com/watch?v=NT299zIk2JY"
+    },
+    {
+      "id": 201,
+      "courseId": 2,
+      "title": "Design Foundations",
+      "summary": "Explore layout, spacing, and visual hierarchy.",
+      "duration": 18,
+      "videoUrl": "https://www.youtube.com/watch?v=3YvYJ3G2Wtk"
+    },
+    {
+      "id": 202,
+      "courseId": 2,
+      "title": "User Research",
+      "summary": "Gather insights through interviews and surveys.",
+      "duration": 14,
+      "videoUrl": "https://www.youtube.com/watch?v=Ovp0m6-0Sbk"
+    },
+    {
+      "id": 203,
+      "courseId": 2,
+      "title": "Prototype and Test",
+      "summary": "Build prototypes and run usability tests.",
+      "duration": 16,
+      "videoUrl": "https://www.youtube.com/watch?v=9BfQw1eX6K0"
+    },
+    {
+      "id": 301,
+      "courseId": 3,
+      "title": "Discovery & Planning",
+      "summary": "Clarify scope, personas, and KPIs.",
+      "duration": 20,
+      "videoUrl": "https://www.youtube.com/watch?v=KxM8o3MKn9s"
+    },
+    {
+      "id": 302,
+      "courseId": 3,
+      "title": "Sprint Execution",
+      "summary": "Coordinate tasks and track delivery.",
+      "duration": 17,
+      "videoUrl": "https://www.youtube.com/watch?v=Y1Q1b1ZK9eA"
+    },
+    {
+      "id": 303,
+      "courseId": 3,
+      "title": "Launch Checklist",
+      "summary": "Prepare for release with QA and marketing.",
+      "duration": 13,
+      "videoUrl": "https://www.youtube.com/watch?v=Z9fZbI1cLrc"
+    },
+    {
+      "id": 304,
+      "courseId": 3,
+      "title": "Growth Loop",
+      "summary": "Measure performance and iterate.",
+      "duration": 15,
+      "videoUrl": "https://www.youtube.com/watch?v=VQFzVTtGxC4"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "courseId": 1
+    }
+  ],
+  "progress": [
+    {
+      "id": 1,
+      "userId": 1,
+      "lessonId": 101,
+      "percent": 40
+    }
+  ]
+}
